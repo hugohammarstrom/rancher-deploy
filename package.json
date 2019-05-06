@@ -1,0 +1,22 @@
+{
+  "name": "@hugohammarstrom/rancher-reploy",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "bin": {
+    "rancher-deploy": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "fs-extra": "^7.0.1",
+    "git-state": "^4.1.0",
+    "moment": "^2.24.0"
+  }
+}
